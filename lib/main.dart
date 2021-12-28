@@ -11,8 +11,10 @@ import 'package:app_examples/provider/logic_venta.dart';
 import 'package:app_examples/screens/splash_screen.dart';
 
 void main() {
-  SystemChrome.setSystemUIOverlayStyle(
-      SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light.copyWith(
+    statusBarColor: Colors.transparent,
+  ));
+
   runApp(AppState());
 }
 
