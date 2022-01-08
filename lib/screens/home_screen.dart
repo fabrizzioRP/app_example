@@ -6,6 +6,7 @@ import 'shop_screen.dart';
 import 'youtube_play.dart';
 import 'efecto_screen.dart';
 import 'transform_screen.dart';
+import 'shoes_animations_screen.dart';
 import 'tween_animation_builder.dart';
 import 'animated_switcher_screen.dart';
 import 'value_listenable_builder.dart';
@@ -70,6 +71,7 @@ List<_Pages> _pages = [
   _Pages('Transform Widget', TransformScreen()),
   _Pages('Animated Switcher', AnimatedSwitcherScreen()),
   _Pages('Shoes Shopping', ShopScreen()),
+  _Pages('Shoes Shop Animation', ShoesAnimationScreen()),
 ];
 
 class _Pages {

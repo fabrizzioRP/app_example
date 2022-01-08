@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 //
 import 'widgets/car_sale.dart';
+import 'widgets/details_shoe_shop.dart';
 import 'widgets/details_shop.dart';
 import 'package:app_examples/provider/logic_venta.dart';
 import 'package:app_examples/screens/splash_screen.dart';
@@ -39,6 +40,7 @@ class MyApp extends StatelessWidget {
           'homeScreen': (_) => HomeScreen(),
           'detailsShop': (_) => DetailsShopWidget(),
           'carSale': (_) => CarSaleWidget(),
+          'customShop': (_) => CustomShoesShop(),
         },
       );
 }
