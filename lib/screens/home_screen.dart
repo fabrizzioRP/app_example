@@ -6,6 +6,7 @@ import 'shop_screen.dart';
 import 'youtube_play.dart';
 import 'efecto_screen.dart';
 import 'transform_screen.dart';
+import 'bottom_bar_screen.dart';
 import 'modal_bottom_sheet.dart';
 import 'shoes_animations_screen.dart';
 import 'tween_animation_builder.dart';
@@ -74,6 +75,7 @@ List<_Pages> _pages = [
   _Pages('Shoes Shopping', ShopScreen()),
   _Pages('Shoes Shop Animation', ShoesAnimationScreen()),
   _Pages('Modal Bottom Sheet', ModalBottomSheet()),
+  _Pages('Bottom Bar ', BottomBarScreen()),
 ];
 
 class _Pages {
