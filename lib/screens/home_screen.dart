@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 
+import 'package:app_examples/screens/draggable_screen.dart';
 import 'package:flutter/material.dart';
 //
 import 'shop_screen.dart';
@@ -78,6 +79,7 @@ List<_Pages> _pages = [
   _Pages('Modal Bottom Sheet', ModalBottomSheet()),
   _Pages('Bottom Bar ', BottomBarScreen()),
   _Pages('Sliver App Bar ', SliverAppBarScreen()),
+  _Pages('Draggable ', DraggableScreen()),
 ];
 
 class _Pages {
