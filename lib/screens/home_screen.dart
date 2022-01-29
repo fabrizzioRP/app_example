@@ -10,6 +10,7 @@ import 'transform_screen.dart';
 import 'bottom_bar_screen.dart';
 import 'searchable_screen.dart';
 import 'modal_bottom_sheet.dart';
+import 'btn_loading_animated.dart';
 import 'sliver_appbar_screen.dart';
 import 'shoes_animations_screen.dart';
 import 'tween_animation_builder.dart';
@@ -21,7 +22,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
           automaticallyImplyLeading: false,
-          title: Text('Flutter Animations'),
+          title: Text('Flutter Widgets'),
           centerTitle: true,
         ),
         body: ListView.builder(
@@ -82,6 +83,7 @@ List<_Pages> _pages = [
   _Pages('Sliver App Bar ', SliverAppBarScreen()),
   _Pages('Draggable ', DraggableScreen()),
   _Pages('Searchable', SearchableScreen()),
+  _Pages('Buttom Animated Loading', BtnLoadingAnimated()),
 ];
 
 class _Pages {
