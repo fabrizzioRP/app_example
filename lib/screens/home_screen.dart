@@ -3,6 +3,7 @@
 import 'package:app_examples/screens/draggable_screen.dart';
 import 'package:flutter/material.dart';
 //
+import 'stepper.dart';
 import 'shop_screen.dart';
 import 'youtube_play.dart';
 import 'efecto_screen.dart';
@@ -84,6 +85,7 @@ List<_Pages> _pages = [
   _Pages('Draggable ', DraggableScreen()),
   _Pages('Searchable', SearchableScreen()),
   _Pages('Buttom Animated Loading', BtnLoadingAnimated()),
+  _Pages('Stepper', StepperScreen()),
 ];
 
 class _Pages {
