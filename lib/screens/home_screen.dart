@@ -3,6 +3,7 @@
 import 'package:app_examples/screens/draggable_screen.dart';
 import 'package:flutter/material.dart';
 //
+import 'choice_chip.dart';
 import 'stepper.dart';
 import 'shop_screen.dart';
 import 'youtube_play.dart';
@@ -86,6 +87,7 @@ List<_Pages> _pages = [
   _Pages('Searchable', SearchableScreen()),
   _Pages('Buttom Animated Loading', BtnLoadingAnimated()),
   _Pages('Stepper', StepperScreen()),
+  _Pages('Choice Chip', ChoiceChipScreen()),
 ];
 
 class _Pages {
